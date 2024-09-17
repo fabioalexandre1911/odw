@@ -16,7 +16,7 @@
         </div>
         <div class="themeFooter__copyright">
             <div class="themeFooter__copyright-logo">
-                <img src="<?= get_stylesheet_directory_uri() . '/assets/images/logotipo.svg' ?>" alt="" />
+                <img src="<?= get_stylesheet_directory_uri() . '/assets/images/logotipo.svg' ?>" alt="" style="width: 150px;"/>
             </div>
             <div class="themeFooter__copyright-text">
                 <p>2024 - Fábio Sousa // Todos os direitos reservados</p>

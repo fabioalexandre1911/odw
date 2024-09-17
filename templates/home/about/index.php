@@ -11,7 +11,7 @@
             </div>
             <div class="themeHomeAbout__text">
                 <h2>Fábio Sousa</h2>
-                <h3>especialista em Wordpress // google tag manager</h3>
+                <h3>Especialista em Wordpress</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non leo nec eros egestas ultricies. Proin sed interdum elit. Sed quis molestie magna, nec ornare elit. Curabitur dolor nisi, commodo id luctus id, facilisis quis elit. Mauris volutpat augue non finibus accumsan. Quisque in bibendum quam. Morbi in consectetur nisl.</p>
                 <p>Curabitur dolor nisi, commodo id luctus id, facilisis quis elit. Mauris volutpat augue non finibus accumsan. Quisque in bibendum quam. Morbi in consectetur nisl. Quisque in bibendum quam. Morbi in consectetur nisl.</p>
                 <a href="" class="themeButton themeButton__primary themeButton__medium">veja mais</a>

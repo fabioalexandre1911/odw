@@ -17,7 +17,7 @@
                     if (has_custom_logo()) :
                         the_custom_logo();
                     else :
-                        echo '<h2>Meu Blog Pessoal</h2>';
+                        echo '<h2>Meus Projetos</h2>';
                     endif;
                     ?>
                 </div>
