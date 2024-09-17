@@ -1,0 +1,8 @@
+# folders
+.vscode
+/build
+/node_modules
+
+# files
+*.log
+*.lock
