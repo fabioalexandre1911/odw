@@ -1,0 +1,51 @@
+.themeArhive-top {
+  height: 50vh;
+  background: var(--colorMain);
+  &__contents {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-size: 40px;
+      color: var(--colorWhite);
+      margin-bottom: 20px;
+      @include breakpoint(mobile) {
+        font-size: 32px;
+      }
+    }
+  }
+  &__description {
+    font-size: 14px;
+    color: var(--colorWhite);
+    line-height: 1.5;
+    width: 50%;
+    margin: 0 auto;
+    a {
+      color: var(--colorWhite);
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
+
+.themeArchive-loop {
+  padding: 90px 0;
+}
+
+.navigation {
+  &.pagination {
+    width: 100%;
+    padding: 45px 0;
+    .nav-links {
+      text-align: center;
+      font-size: 18px;
+      .current {
+        color: var(--colorMain);
+      }
+      a {
+        color: var(--colorText);
+        text-decoration: none;
+        margin-left: 5px;
+      }
+    }
+  }
+}

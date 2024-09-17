@@ -1,0 +1,13 @@
+const themeMain = {
+  mobileMenuToggle: () => {
+    jQuery("body").on("click", ".themeHeader__mobile", function () {
+      jQuery(".themeHeader__navigation ul").slideToggle();
+    });
+  },
+
+  init: () => {
+    themeMain.mobileMenuToggle();
+  },
+};
+
+export default themeMain;

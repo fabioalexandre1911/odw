@@ -1,0 +1,76 @@
+.themeFooter {
+  background: var(--colorCloud);
+  padding-top: 45px;
+  &__newsletter {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    @include breakpoint(mobile) {
+      width: 100%;
+    }
+    &-title {
+      h2 {
+        font-size: 30px;
+        font-weight: 800;
+        color: var(--colorMain);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        color: var(--colorBlack);
+        text-align: center;
+        line-height: 1.4;
+        margin-bottom: 20px;
+      }
+    }
+    &-form {
+      .themeForm__input {
+        background: var(--colorWhite);
+      }
+    }
+    &-icon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+  &__copyright {
+    text-align: center;
+    padding-bottom: 50px;
+    &-logo {
+      margin-bottom: 50px;
+    }
+    &-text {
+      font-size: 14px;
+      margin-bottom: 2px;
+      color: var(--colorBlack);
+    }
+    &-navigation {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include breakpoint(mobile) {
+          display: block;
+          margin-top: 10px;
+        }
+        li {
+          color: var(--colorBlack);
+          &:not(:last-of-type) {
+            margin-right: 20px;
+          }
+          @include breakpoint(mobile) {
+            &:not(:last-of-type) {
+              margin-bottom: 10px;
+            }
+          }
+          a {
+            color: var(--colorMain);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

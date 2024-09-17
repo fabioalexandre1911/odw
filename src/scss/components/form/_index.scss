@@ -1,0 +1,29 @@
+.themeForm {
+  display: flex;
+  align-items: center;
+  &__label {
+    width: 65%;
+  }
+  &__input {
+    width: 100%;
+    background: var(--colorCloud);
+    padding: 21px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &__submit {
+    width: 35%;
+    background: var(--colorSupport);
+    color: var(--colorWhite);
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: lowercase;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

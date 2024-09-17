@@ -1,0 +1,27 @@
+.themeHomeHero {
+  height: 85vh;
+  width: 100%;
+  background: var(--colorMain);
+  &__contents {
+    width: 40%;
+    @include breakpoint(mobile) {
+      width: 100%;
+    }
+  }
+  &__title {
+    font-size: 39px;
+    color: var(--colorWhite);
+    margin-bottom: 15px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--colorWhite);
+    @include breakpoint(mobile) {
+      font-size: 18px;
+    }
+    strong {
+      font-weight: 900;
+    }
+  }
+}
