@@ -59,7 +59,7 @@ function ajax_filter_projects() {
 
     if ($query->have_posts()) :
         while ($query->have_posts()) : $query->the_post();
-            get_template_part('template-parts/content', 'project');
+            get_template_part('templates/content', 'project');
         endwhile;
     else :
         echo 'Nenhum projeto encontrado';
