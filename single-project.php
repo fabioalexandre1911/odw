@@ -20,7 +20,7 @@
             // Query de projetos relacionados (baseado no tipo)
             $related = new WP_Query(array(
                 'post_type' => 'projects',
-                'posts_per_page' => 3,
+                'posts_per_page' => 2,
                 'meta_key' => 'project_type',
                 'meta_value' => get_field('project_type'),
                 'post__not_in' => array(get_the_ID())
@@ -28,7 +28,7 @@
 
             if ($related->have_posts()) :
                 while ($related->have_posts()) : $related->the_post();
-                    get_template_part('template-parts/content', 'project');
+                    get_template_part('templates/content/content-project'); 
                 endwhile;
             else :
                 echo 'Nenhum projeto relacionado encontrado.';

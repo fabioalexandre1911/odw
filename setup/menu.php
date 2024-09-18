@@ -6,7 +6,7 @@ if (!function_exists('themeMenu')) :
         /** register menu */
         register_nav_menus(
             array(
-                'primary' => esc_html__('Menu Principal', 'personal-blog')
+                'primary' => esc_html__('Menu Principal', 'odw')
             )
         );
     }
