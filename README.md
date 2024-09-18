@@ -2,26 +2,22 @@
 Criação de Tema Modelo em WordPress do Zero 
 Tema base para projetos WordPress
 
-# Biblioteca 
-
-yarn add @wordpress/scripts
-
-
 # Para projetos novos, vá até a pasta themes e clone o tema, renomeie a pasta do tema, exclua a pasta .git original do tema e inicie um novo git no tema
 
 - git git@github.com:fabioalexandre1911/odw.git
-- mv starter-wp tema-XYZ
-- cd tema-XYZ
-- rm -rf .git
+- cd ODW
 - git init
 
 # Atualizar versão do Node para 16.13.2, com NVM, e rodar npm install para instalar as dependências.
-Instalação em projetos existentes
+yarn install
 
-# Crie o arquivo package.json com o conteúdo do arquivo.
+# Carrregar o arquivo package.json com o conteúdo do arquivo.
 
 - yarn start
-- yarn add
+
+# Inicializando o Docker
+
+- docker compose up -d
 
 # Todos os assets adicionados precisam ser adicionados para funcionarem no projeto.
 
@@ -33,4 +29,4 @@ git checkout dev
 
 Pronto!
 
-Neste momento já deve ser possível acessar o site em http://localhost:8080
+Neste momento já deve ser possível acessar o site em http://wpdemo.com.br e  o banco na porta 8081
