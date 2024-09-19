@@ -14,11 +14,12 @@
             <div class="themeHeader__contents">
                 <div class="themeHeader__logo">
                     <?php
-                    if (has_custom_logo()) :
-                        the_custom_logo();
-                    else :
-                        echo '<h2>Projetos</h2>';
-                    endif;
+                    // if (has_custom_logo()) :
+                    //     the_custom_logo();
+                    // else :
+                    //     echo '<h2>Projetos</h2>';
+                    // endif;
+                    echo '<h2>Projetos teste</h2>';
                     ?>
                 </div>
                 <nav class="themeHeader__navigation">
